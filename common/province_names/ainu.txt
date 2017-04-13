@@ -1,0 +1,4 @@
+1031 = "Ciwpet"
+1847 = "Shiripe"
+1852 = "Tokapchi"
+4193 = "Ho'rep'asi"

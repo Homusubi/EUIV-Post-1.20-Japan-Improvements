@@ -1,0 +1,110 @@
+shogunal_incompetence_1 = {
+	potential = {
+		normal_or_historical_nations = yes
+		government = shogunate
+	}
+	trigger = {
+		tag = ASK
+		any_country = {
+			OR = {
+				government = daimyo
+				government = indep_daimyo
+				}
+		}
+	}
+
+	vassal_forcelimit_bonus = -0.33
+	vassal_income = -0.25
+	legitimacy = -0.5
+	diplomatic_reputation = -1
+}
+
+shogunal_incompetence_2 = {
+	potential = {
+		normal_or_historical_nations = yes
+		government = shogunate
+	}
+	trigger = {
+		OR = { 
+			tag = ASK
+			tag = HSK
+			tag = YMN
+			tag = SBA
+			tag = HTK
+			tag = UES
+			}
+		any_country = {
+			OR = {
+				government = daimyo
+				government = indep_daimyo
+				}
+		}
+	}
+
+	vassal_forcelimit_bonus = -0.33
+	vassal_income = -0.25
+	legitimacy = -0.5
+	diplomatic_annexation_cost = 0.5
+}
+
+shogunal_incompetence_3 = {
+	potential = {
+		normal_or_historical_nations = yes
+		government = shogunate
+	}
+	trigger = {
+		NOT = { num_of_cities = 7 }
+		any_country = {
+			OR = {
+				government = daimyo
+				government = indep_daimyo
+				}
+		}
+	}
+
+	vassal_forcelimit_bonus = -0.33
+	vassal_income = -0.25
+	legitimacy = -0.5
+	diplomatic_reputation = -1
+}
+
+shogunal_incompetence_4a = {
+	potential = {
+		normal_or_historical_nations = yes
+		government = shogunate
+		has_country_modifier = shogunal_ten_year_timer
+	}
+	trigger = {
+		any_country = {
+			OR = {
+				government = daimyo
+				government = indep_daimyo
+				}
+		}
+	}
+
+	vassal_income = -0.25
+	legitimacy = -0.5
+	diplomatic_reputation = -1
+}
+
+shogunal_incompetence_4b = {
+	potential = {
+		normal_or_historical_nations = yes
+		government = shogunate
+	}
+	trigger = {
+		tag = ASK
+		NOT = { year = 1455 }
+		any_country = {
+			OR = {
+				government = daimyo
+				government = indep_daimyo
+				}
+		}
+	}
+
+	vassal_income = -0.25
+	legitimacy = -0.5
+	diplomatic_reputation = -1
+}

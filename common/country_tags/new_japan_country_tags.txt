@@ -1,0 +1,10 @@
+#Ainu
+IKA	= "countries/Ishikari.txt"
+SOI	= "countries/Shiraoi.txt"
+SAU	= "countries/Saru.txt"
+SHB	= "countries/Shibuchari.txt"
+AKN	= "countries/Akan.txt"
+TSH	= "countries/Teshiho.txt"
+HAE	= "countries/Hae.txt"
+KUA = "countries/Kuril Ainu.txt"
+KFA = "countries/Karafuto Ainu.txt"
